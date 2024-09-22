@@ -16,8 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid grey;
-    height: 100vh;
-    width: 100vh;
+    height: 690px;
+    width: 750px;
 }
 
 .container>div {
@@ -27,11 +27,10 @@ body {
 
 .outerContainer {
     display: flex;
-    flex: 1;
-    margin-left: 50px;
+    justify-content: center;
 }
 
-.buttons {
+.buttons, .text {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -39,20 +38,18 @@ body {
     justify-content: center;
 }
 
-.buttons>* {
-    padding: 15px;
+.text {
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.gridSize, .toggle, .reset {
+    padding: 12px;
     background-color: grey;
     font-size: larger;
     cursor: pointer;
     border: none;
     border-radius: 20px;
+    width: 210px;
 } 
-
-.footer {
-    writing-mode: vertical-rl;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    background-color: #111720;
-    height: 100vh;
-}
