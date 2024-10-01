@@ -44,7 +44,7 @@ body {
     color: white;
 }
 
-.gridSize, .toggle, .reset {
+.gridSize, .reset, .randomColor {
     padding: 12px;
     background-color: grey;
     font-size: larger;
